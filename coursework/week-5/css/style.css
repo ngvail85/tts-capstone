@@ -1,0 +1,25 @@
+h3{
+	color: #880088;
+}
+
+.column-half{
+	border: solid 1px red;
+	width: calc(50% - 32px);
+	float: left;
+	padding: 15px;
+}
+
+/* Changes the background color depending on the width of the screen window */
+@media only screen and (max-width: 600px) {
+	body {
+			background-color: lightblue;
+	}
+}
+
+
+.column-fourth{
+	border: solid 1px red;
+	width: calc(25% - 32px);
+	float: left;
+	padding: 15px;
+}
